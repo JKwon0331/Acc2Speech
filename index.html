@@ -2,21 +2,22 @@
 <html>
   <style>
     audio{
-      transform: scale(1);
-      width : 90% ;
-      height: 50px; 
+      /* transform: scale(0.6); */
+      width : 200px ;
+      transform: scale(0.9)
+      /* height: 50px;  */
       
     }
      
     table {
-      width: 90%;
+      width: 95%;
       height: 40%;
       border-collapse: collapse;
       }
     
     
     td, th {
-      width: 150px;
+      width: 125px;
       height: 50px;
       text-align: center;
       padding-top: 5px;
@@ -51,89 +52,80 @@
   <table border="3", style = "margin-left: auto; margin-right: auto;">
     <tr>
       <th class="no-border"> </th>
+      <th class="no-border"> </th>
       <font size = "5">
-      <th colspan="2"><font size = "5">Sentence1</font></th>
-      <th colspan="2"><font size = "5">Sentence2</font></th>
-      <th colspan="2"><font size = "5">Sentence3</font></th>
-      <th colspan="2"><font size = "5">Sentence4</font></th>
-      <th colspan="2"><font size = "5">Sentence5</font></th>
+      <th><font size = "5">Sub 2</font></th>
+      <th><font size = "5">Sub 6</font></th>
+      <th><font size = "5">Sub 9</font></th>
+      <th><font size = "5">Sub 15</font></th>
+      <th><font size = "5">Sub 17</font></th>
       
       </font>
     </tr>
-
     <tr>
-      <td class="no-border"> </td>
-      <td>Ground Truth</td>
-      <td>Generated</td>
-      <td>Ground Truth</td>
-      <td>Generated</td>
-      <td>Ground Truth</td>
-      <td>Generated</td>
-      <td>Ground Truth</td>
-      <td>Generated</td>
-      <td>Ground Truth</td>
-      <td>Generated</td>
-    </tr>
-    <tr>
-      <th><font size = "5">Sub2</font></th>
+      <th rawspan = "2" style = "text-align: center;">Sentence1</th>
+      <th>Ground Truth</th>
       <td> 
         <audio controls>
           <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub2_1_real.wav?raw=false" type="audio/mpeg">
         </audio>
       </td>
-      <td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_1_real.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_1_real.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_1_real.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub17_1_real.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>Generated</th>
+      <td> 
         <audio controls>
           <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub2_1_recon.wav?raw=false" type="audio/mpeg">
         </audio>
       </td>
       <td> 
         <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub2_2_real.wav?raw=false" type="audio/mpeg">
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_1_recon.wav?raw=false" type="audio/mpeg">
         </audio>
       </td>
-      <td>
+      <td> 
         <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub2_2_recon.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td><td> 
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub2_3_real.wav?raw=false" type="audio/mpeg">
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_1_recon.wav?raw=false" type="audio/mpeg">
         </audio>
       </td>
-      <td>
+      <td> 
         <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub2_3_recon.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td><td> 
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub2_4_real.wav?raw=false" type="audio/mpeg">
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_1_recon.wav?raw=false" type="audio/mpeg">
         </audio>
       </td>
-      <td>
+      <td> 
         <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub2_4_recon.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td><td> 
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub2_5_real.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub2_5_recon.wav?raw=false" type="audio/mpeg">
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub17_1_recon.wav?raw=false" type="audio/mpeg">
         </audio>
       </td>
     </tr>
     <tr>
-      <th><font size = "5">Sub6</font></th>
+      <th rawspan = "2" style = "text-align: center;">Sentence2</th>
+      <th>Ground Truth</th>
       <td> 
         <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_1_real.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_1_recon.wav?raw=false" type="audio/mpeg">
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub2_2_real.wav?raw=false" type="audio/mpeg">
         </audio>
       </td>
       <td> 
@@ -141,99 +133,9 @@
           <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_2_real.wav?raw=false" type="audio/mpeg">
         </audio>
       </td>
-      <td>
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_2_recon.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td><td> 
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_3_real.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_3_recon.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td><td> 
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_4_real.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_4_recon.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td><td> 
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_5_real.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_5_recon.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
-    </tr>
-    <tr>
-      <th><font size = "5">Sub9</font></th>
-      <td> 
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_1_real.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_1_recon.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
       <td> 
         <audio controls>
           <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_2_real.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_2_recon.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td><td> 
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_3_real.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_3_recon.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td><td> 
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_4_real.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_4_recon.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td><td> 
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_5_real.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_5_recon.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
-    </tr>
-    <tr>
-      <th><font size = "5">Sub15</font></th>
-      <td> 
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_1_real.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_1_recon.wav?raw=false" type="audio/mpeg">
         </audio>
       </td>
       <td> 
@@ -241,91 +143,216 @@
           <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_2_real.wav?raw=false" type="audio/mpeg">
         </audio>
       </td>
-      <td>
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_2_recon.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td><td> 
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_3_real.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_3_recon.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td><td> 
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_4_real.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_4_recon.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td><td> 
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_5_real.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_5_recon.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
-    </tr>
-    <tr>
-      <th><font size = "5">Sub17</font></th>
-      <td> 
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub17_1_real.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
-      <td>
-        <audio controls>
-          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub17_1_recon.wav?raw=false" type="audio/mpeg">
-        </audio>
-      </td>
       <td> 
         <audio controls>
           <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub17_2_real.wav?raw=false" type="audio/mpeg">
         </audio>
       </td>
-      <td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>Generated</th>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub2_2_recon.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_2_recon.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_2_recon.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_2_recon.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
         <audio controls>
           <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub17_2_recon.wav?raw=false" type="audio/mpeg">
         </audio>
-      </td><td> 
+      </td>
+    </tr>
+    
+    <tr>
+      <th rawspan = "2" style = "text-align: center;">Sentence3</th>
+      <th>Ground Truth</th>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub2_3_real.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_3_real.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_3_real.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_3_real.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
         <audio controls>
           <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub17_3_real.wav?raw=false" type="audio/mpeg">
         </audio>
       </td>
-      <td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>Generated</th>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub2_3_recon.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_3_recon.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_3_recon.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_3_recon.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
         <audio controls>
           <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub17_3_recon.wav?raw=false" type="audio/mpeg">
         </audio>
-      </td><td> 
+      </td>
+    </tr>
+    <tr>
+      <th rawspan = "2" style = "text-align: center;">Sentence4</th>
+      <th>Ground Truth</th>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub2_4_real.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_4_real.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_4_real.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_4_real.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
         <audio controls>
           <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub17_4_real.wav?raw=false" type="audio/mpeg">
         </audio>
       </td>
-      <td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>Generated</th>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub2_4_recon.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_4_recon.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_4_recon.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_4_recon.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
         <audio controls>
           <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub17_4_recon.wav?raw=false" type="audio/mpeg">
         </audio>
-      </td><td> 
+      </td>
+    </tr>
+    <tr>
+      <th rawspan = "2" style = "text-align: center;">Sentence5</th>
+      <th>Ground Truth</th>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub2_5_real.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_5_real.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_5_real.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_5_real.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
         <audio controls>
           <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub17_5_real.wav?raw=false" type="audio/mpeg">
         </audio>
       </td>
-      <td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>Generated</th>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub2_5_recon.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub6_5_recon.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub9_5_recon.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
+        <audio controls>
+          <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub15_5_recon.wav?raw=false" type="audio/mpeg">
+        </audio>
+      </td>
+      <td> 
         <audio controls>
           <source src="https://github.com/JKwon0331/Acc2Speech/blob/main/AudioSamples/sub17_5_recon.wav?raw=false" type="audio/mpeg">
         </audio>
       </td>
-      </tr>
-
-
+    </tr>
   </table>
   
 
